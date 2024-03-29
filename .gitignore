@@ -1,0 +1,8 @@
+dist
+node_modules
+.env
+.env.development
+package-lock.json
+*.development.json
+info.md
+.vscode
