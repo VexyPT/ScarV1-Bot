@@ -30,7 +30,7 @@ new Command({
         });
 
         if(settings.links.invite) {
-            const action = createRow(
+            const row = createRow(
                 new ButtonBuilder({
                     label: "Dashboard",
                     emoji: settings.emojis.static.partners.scar,
@@ -42,14 +42,14 @@ new Command({
                     label: "Support Server",
                     emoji: settings.emojis.static.support,
                     style: ButtonStyle.Link,
-                    url: "https://discord.gg/y4c6JsTaMn",
+                    url: `${settings.links.supportServer}`,
                     disabled: false
                 }),
             );
 
             interaction.reply({
                 embeds: [embed],
-                components: [action],
+                components: [row],
                 ephemeral: false
             });
             return;
@@ -60,5 +60,6 @@ new Command({
                 ephemeral: false
             });
         }
+        return;
     }
 });
