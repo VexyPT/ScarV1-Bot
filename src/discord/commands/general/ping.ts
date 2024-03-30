@@ -70,5 +70,6 @@ new Command({
         });
         
         await interaction.editReply({ embeds: [pingMessage] });
+        return;
     }
 });
