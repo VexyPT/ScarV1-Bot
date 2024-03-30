@@ -22,6 +22,8 @@
     "static": {
       "info": "1223321941792788642",
       "support": "1223322148219916420",
+      "paypal": "1223417867861622835",
+      "mbway": "1223636940847448105",
       "badges": {
         "verified": "1223411688804454520",
         "gold_verified": "1223411707192541267"
@@ -33,6 +35,10 @@
     }
   },
   "links": {
+    "donationsIsOn": true,
+    "donateMbWay": "https://discord.gg/Dd3C6DXhVU",
+    "donatePaypal": "https://www.paypal.com/paypalme/danielfilipe17",
+    "supportServer": "https://discord.gg/Dd3C6DXhVU",
     "invite": "https://discord.com/oauth2/authorize?client_id=1223337861676531742&permissions=8&scope=bot+applications.commands"
   }
 }
