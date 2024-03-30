@@ -17,5 +17,22 @@
     "brilliance": "#f07d5f",
     "nitro": "#ff6bfa",
     "bravery": "#9c84ef"
+  },
+  "emojis": {
+    "static": {
+      "info": "1223321941792788642",
+      "support": "1223322148219916420",
+      "badges": {
+        "verified": "1223411688804454520",
+        "gold_verified": "1223411707192541267"
+      },
+      "partners": {
+        "squarecloud": "1223393241710203011",
+        "scar": "1223335516427124796"
+      }
+    }
+  },
+  "links": {
+    "invite": "https://discord.com/oauth2/authorize?client_id=1223337861676531742&permissions=8&scope=bot+applications.commands"
   }
 }
