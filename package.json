@@ -14,13 +14,14 @@
     "start:dev": "node --env-file .env.development ."
   },
   "dependencies": {
-    "@magicyan/discord": "^1.0.22",
+    "@magicyan/discord": "^1.0.24",
+    "axios": "^1.6.8",
     "chalk": "^5.3.0",
     "consola": "^3.2.3",
     "discord.js": "^14.14.1",
     "fast-glob": "^3.3.2",
-    "zod": "^3.22.4",
-    "mongoose": "^8.2.0"
+    "mongoose": "^8.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
