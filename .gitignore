@@ -6,3 +6,5 @@ package-lock.json
 *.development.json
 info.md
 .vscode
+*.dio
+*.txt
