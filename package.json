@@ -7,11 +7,11 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx --env-file .env ./src/index.ts",
-    "dev:dev": "tsx --env-file .env.development ./src/index.ts",
+    "canary": "tsx --env-file .env.development ./src/index.ts",
     "watch": "tsx --watch --env-file .env ./src/index.ts",
-    "watch:dev": "tsx --watch --env-file .env.development ./src/index.ts",
+    "watch:canary": "tsx --watch --env-file .env.development ./src/index.ts",
     "start": "node --env-file .env .",
-    "start:dev": "node --env-file .env.development ."
+    "start:canary": "node --env-file .env.development ."
   },
   "dependencies": {
     "@magicyan/discord": "^1.0.24",
