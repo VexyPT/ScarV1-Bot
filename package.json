@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@magicyan/discord": "^1.0.24",
+    "@squarecloud/api": "^3.4.3",
     "axios": "^1.6.8",
     "chalk": "^5.3.0",
     "consola": "^3.2.3",
