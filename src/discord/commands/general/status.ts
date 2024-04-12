@@ -44,7 +44,7 @@ new Command({
                 },
                 {
                     name: `${formatEmoji(settings.emojis.static.casePC)} Network Usage`,
-                    value: `${codeBlock(`${status.usage.network.now}/${status.usage.network.total}`)}`,
+                    value: `${codeBlock(`${status.usage.network.now} / ${status.usage.network.total}`)}`,
                     inline: false
                 },
                 {
