@@ -295,10 +295,10 @@ new Command({
               color: hexToRgb(settings.colors.azoxo),
               thumbnail: { url: emoji.imageURL() },
               fields: [
-                { name: `${formatEmoji(settings.emojis.static.id)} ID:`, value: `**\`\`\`${emoji.id}\`\`\`**`, inline: true },
-                { name: `${formatEmoji(settings.emojis.static.mention)} Mention:`, value: emoji.animated ? `**\`\`\`<a:${emoji.name}:${emoji.id}>\`\`\`**` : `\`\`\`<:${emoji.name}:${emoji.id}>\`\`\``, inline: true },
-                { name: `${formatEmoji(settings.emojis.static.calendar)} Creation Date:`, value: `<t:${Math.floor(emoji.createdTimestamp / 1000)}:f>`, inline: true },
-                { name: `${formatEmoji(settings.emojis.static.image)} Format:`, value: `${emoji.animated ? '**```GIF```**' : '**```Static```**'}`, inline: false },
+                { name: `${formatEmoji(settings.emojis.static.id)} ID`, value: `**\`\`\`${emoji.id}\`\`\`**`, inline: true },
+                { name: `${formatEmoji(settings.emojis.static.mention)} Mention`, value: emoji.animated ? `**\`\`\`<a:${emoji.name}:${emoji.id}>\`\`\`**` : `\`\`\`<:${emoji.name}:${emoji.id}>\`\`\``, inline: true },
+                { name: `${formatEmoji(settings.emojis.static.calendar)} Creation Date`, value: `<t:${Math.floor(emoji.createdTimestamp / 1000)}:f>`, inline: true },
+                { name: `${formatEmoji(settings.emojis.static.image)} Format`, value: `${emoji.animated ? '**```GIF```**' : '**```Static```**'}`, inline: false },
               ]
             });
 
