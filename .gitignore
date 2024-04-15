@@ -1,12 +1,26 @@
-dist
-node_modules
-.env
-.env.development
-package-lock.json
-*.development.json
+# Folders
+/dist
+/squarecloud
+/deprecated
+/node_modules
+
+# Files
+/.env
+/.env.development
+/package-lock.json
 info.md
-.vscode
-*.dio
+
+# Config files
+
+
+# Extensions
+*.zip
+*.sqlite
+*.exe
+*.db
+*.development.json
+*.vscode
 *.txt
-squarecloud.app
-squarecloud.config
+*.dio
+*.app
+*.config
