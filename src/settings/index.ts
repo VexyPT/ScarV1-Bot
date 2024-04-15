@@ -5,19 +5,28 @@ export { onError } from "./error.js";
 
 import "./global.js";
 import chalk from "chalk";
+import { brBuilder } from "@magicyan/discord";
 
 export { log, settingsJson as settings };
 
 const parseResult = envSchema.safeParse(process.env);
 if (!parseResult.success){
-    throw parseResult.error;
+    for(const { message, path } of parseResult.error.errors){
+        log.error({
+            type: "ENV VAR",
+            message: chalk.red(`${chalk.bold(path)} ${message}`)
+        });
+    }
+    log.fatal(chalk.red(brBuilder(
+        "Environment variables are undefined or the env file was not loaded.",
+        "Make sure to run the bot using package.json scripts"
+    )));
+    process.exit(1);
 }
-log.success(chalk.hex("#8b51a3")("Env vars loaded successfully!"));
-
-type EnvVars = Readonly<EnvSchema>
+log.success(chalk.hex(settingsJson.colors.bravery)("Env vars loaded successfully!"));
 
 declare global {
     namespace NodeJS {
-        interface ProcessEnv extends EnvVars {}
+        interface ProcessEnv extends Readonly<EnvSchema> {}
     }
 }
