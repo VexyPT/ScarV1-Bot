@@ -20,42 +20,42 @@
   },
   "emojis": {
     "static": {
-      "ram": "1226563435173773362",
-      "casePC": "1226563359982485684",
-      "database": "1226563444937982094",
-      "ssd": "1226563421835759657",
-      "cpu": "1226563300154671317",
-      "sucess": "1223321856572915824",
-      "error": "1223321923719663761",
-      "cooldown": "1223321954321174660",
-      "info": "1223321941792788642",
-      "mention": "1226535189392392272",
-      "calendar": "1226533591450783825",
-      "id": "1226533785663832207",
-      "link": "1226535080751665193",
-      "image": "1226533514560933929",
-      "support": "1223322148219916420",
+      "ram": "1230874595418968244",
+      "casePC": "1230874507586043956",
+      "database": "1230874552050122835",
+      "ssd": "1230874668827803789",
+      "cpu": "1230874529119600734",
+      "sucess": "1230873511757873154",
+      "error": "1230873709028446261",
+      "info": "1230873745154113536",
+      "warn": "1230873778163154964",
+      "mention": "",
+      "calendar": "",
+      "id": "",
+      "link": "1230875328373854320",
+      "image": "",
+      "support": "1230876144308584489",
       "paypal": "1223417867861622835",
       "mbway": "1223636940847448105",
-      "coin": "1223335447716167821",
+      "scarCoin": "1223335447716167821",
       "badges": {
         "verified": "1223411688804454520",
         "gold_verified": "1223411707192541267"
       },
       "partners": {
-        "squarecloud": "1223393241710203011",
+        "squarecloud": "1230873803979231365",
         "scar": "1223335516427124796"
       }
     },
     "animated": {
-      "loading": "1226535132937326602"
+      "loading": "1229491083420106912"
     }
   },
   "links": {
-    "donationsIsOn": true,
     "donateMbWay": "https://discord.gg/Dd3C6DXhVU",
     "donatePaypal": "https://www.paypal.com/paypalme/danielfilipe17",
     "supportServer": "https://discord.gg/Dd3C6DXhVU",
-    "invite": "https://discord.com/oauth2/authorize?client_id=1223337861676531742&permissions=8&scope=bot+applications.commands"
+    "invite": "https://discord.com/oauth2/authorize?client_id=1223337861676531742&permissions=8&scope=bot+applications.commands",
+    "squarecloud": "https://squarecloud.app/home"
   }
 }
