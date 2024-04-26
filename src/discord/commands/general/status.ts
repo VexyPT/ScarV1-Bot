@@ -57,11 +57,25 @@ new Command({
 
         const row = createRow(
             new ButtonBuilder({
+                label: "Dashboard",
+                emoji: settings.emojis.static.partners.scar,
+                style: ButtonStyle.Link,
+                url: "https://google.com",
+                disabled: true
+            }),
+            new ButtonBuilder({
                 label: "Support Server",
                 emoji: settings.emojis.static.support,
                 style: ButtonStyle.Link,
                 url: `${settings.links.supportServer}`,
-                disabled: false,
+                disabled: false
+            }),
+            new ButtonBuilder({
+                label: "Square Cloud",
+                emoji: settings.emojis.static.partners.squarecloud,
+                style: ButtonStyle.Link,
+                url: `${settings.links.squarecloud}`,
+                disabled: false
             }),
         );
 
